@@ -6,7 +6,7 @@ categories: test
 ---
 Just figured I'd write something (stupidly simple) about generics.
 
-Generics are for create a type or a function that has a specific relationship to a particular type without the use of Swift's Any type. Without generics, we'd have to do something like this.
+Generics are for creating a type or a function that has a specific relationship to a particular type without the use of Swift's Any type. Without generics, we'd have to do something like this.
 
 {% highlight swift %}
 func doSomethingWith(thing: Any) -> Any {
