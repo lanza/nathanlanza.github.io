@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Generics?"
+date:   2016-06-15 1:42:0 -0400
+categories: test 
+---
+Just figured I'd write something (stupidly simple) about generics.
+
+Generics are for create a type or a function that has a specific relationship to a particular type without the use of Swift's Any type. Without generics, we'd have to do something like this.
+
+{% highlight swift %}
+func doSomethingWith(thing: Any) -> Any {
+   print(thing)
+   return thing
+}
+{% endhighlight %}
+
+The function author doens't know the type, the function doesn't know the type, only the function caller does. But then after using the function, the caller has to typecast the result to some known type.
+
+{% highlight swift %}
+let word = "Hello"
+let result = doSomething(thing: word) as! String
+{% endhighlight %}
+
+(Bare with me, this is a really contrived example but I'm new to this.) 
+Clearly, this is poor code. Requiring the function caller to explicitly cast this to the type they input isn't ideal. Luckily we have generics.
+
+{% highlight swift %}
+func doThings<T>(thing: T) -> T {
+   print(thing)
+   return thing
+}
+{% endhighlight %}
+
+Now, this can be called by
+
+{% highlight swift %}
+let word = "Hello"
+let result = doThings(thing: word)
+{% endhighlight %}
+
+And we have no typecasting required. If I weren't lazy, I'd write a much more thorough example. One with constraints, perhaps. But not now. I think I'm going to write a post about an EXTREMELY simple compiler soon. I'll write it in Swift for Swift, but slowly build it up statement by statement. I don't intend to make it fully functional, I'd just be doing it as a learning exercise. No promises.
