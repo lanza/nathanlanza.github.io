@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Does LaTeX work too?"
+title: "TeX works too!"
 date:   2016-06-15 2:01:0 -0400
 categories: test 
 ---
 
-Maybe I'll write something about quantum field theory if LaTeX works.
+Just found out how to use TeX with HTML via a JavaScript script, maybe I'll try writing about quantum field theory?
+
+Here's just a quick equation pulled from my old sharelatex.com account.
 
 $$ S_f [\psi, e] = \int \bar{\psi} \gamma^I D\psi \wedge e^J \wedge e^k \wedge e^L \epsilon_{IJKL} $$
 
