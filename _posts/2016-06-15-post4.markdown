@@ -9,4 +9,4 @@ Maybe I'll write something about quantum field theory if LaTeX works.
 
 $$ S_f [\psi, e] = \int \bar{\psi} \gamma^I D\psi \wedge e^J \wedge e^k \wedge e^L \epsilon_{IJKL} $$
 
-This equation is from a paper I wrote on coupling Fermions to Loop Quantum Gravity (not a published paper, just to learn about a few authors work.) This is the Dirac action (the \\(\psi\\)s and the \\(D\\)$ coupled to classical gravity through the Plebanski formulation as expressed via the triads (the \\(e^J\\)s.)
+This equation is from a paper I wrote on coupling Fermions to Loop Quantum Gravity (not a published paper, just to learn about a few authors work.) This is the Dirac action (the \\(\psi\\)s and the \\(D\\)s) coupled to classical gravity through the Plebanski formulation as expressed via the triads (the \\(e^J\\)s.)
