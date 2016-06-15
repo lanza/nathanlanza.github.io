@@ -21,15 +21,36 @@ And here's how you use it.
 	struct Dog {
 		var name: String
 		var age: Int
+      func bark() {
+         print("Woof")
+      }
 	}
 {% endhighlight %}
 
-Lastly, here's it in action.
+So, why  would we want to use protocols? Well, if you are writing some code that only requires the interface provided by the protocol, you can ignore the specifics of the struct/class that implements it. So, quickly, we'll add a second type that conforms to the protocol.
 
 {% highlight swift %}
-	let muffin = Dog(name: "Muffin", age: 12)
-	print(muffin.name)
-	//Muffin
+   struct Alligator {
+      var name: String
+      var age: Int
+      func swim() {
+         print(name, " is swimming")
+      }
+   }
+{% endhighlight %}
+
+Now, if we have a function that does some action particular to the name and age of an object, we can be less specific than either Dog or Alligator and just use Animal.
+
+{% highlight swift %}
+   func printAgeAndNameOf(animal: Animal) {
+      print("\(animal.name) is (animal.age) years old.")
+   }
+   let animals: [Animal] = [Dog(name: "Muffin", age: 12), Alligator(name: "Tim", age: 4)]
+   for animal in animals {
+      printAgeAndNameOf(animal: animal)
+   }
+   // Muffin is 12 years old.
+   // Tim is 4 years old.
 {% endhighlight %}
 
 That'll do, pig.
