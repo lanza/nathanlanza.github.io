@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Does LaTeX work too?"
+date:   2016-06-15 2:01:0 -0400
+categories: test 
+---
+
+Maybe I'll write something about quantum field theory if LaTeX works.
+
+{% highlight latex %}
+$$ S_f [\psi, e] = \int \bar{\psi} \gamma^I D\psi \wedge e^J \wedge e^k \wedge e^L \epsilon_{IJKL} $$
+{% endhighlight %}
+
