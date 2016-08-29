@@ -1,0 +1,16 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+Blend Chat
+<img source="http://bikis-design.com/img/BlendFinalScreenShotsAllTogether.png">
+
+Blend provides a platform for participants of live events, TV shows and conferences in real time - for free. Set up a Blend Room for your event or conference and post a QR-Code at the door. Meet and discuss with others experiencing the same environment as you. Tap on someone's message to 'Whisper' with them directly.
+Whisper: Continue the conversation privately with someone in the same room as you.
+Create: Build your own room and invite your friends to it: plan out your weekend, coordinate a project, organize an event, or talk with family in a private room.
+Join: Use a QR code or Room key to gain access to specific rooms.
+Browse: Look through the rooms with the most activity.
+Favorite: Favorite a room to store it in your profile allowing for seamless access to your most visited places.
+Other features: Embed channels in your room to organize large rooms.
