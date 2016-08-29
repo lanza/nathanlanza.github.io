@@ -103,7 +103,7 @@ the compiler can (almost) infer what is going on. First, we tell it that the ins
 
 However, the compiler hasn't been told exactly what object is going to take the place of the second generic type. In typical practices, you simply do someting like this:
 
-{% highlight Swift %}
+{% highlight swift %}
 class SomeOtherClass: NumberHolderDelegate {
    func didPrint(number: Int) {
       //do something
@@ -113,7 +113,7 @@ class SomeOtherClass: NumberHolderDelegate {
 
 This creates a type that can serve as the delegate to the NumberHolder specific to the type Int. We can also make this generic as well:
 
-{% highlight Swift %}
+{% highlight swift %}
 class SomeOtherClass<Number>: NumberHolderDelegate {
    func didPrint(number: Number) {
       //do something
@@ -123,7 +123,7 @@ class SomeOtherClass<Number>: NumberHolderDelegate {
 
 Now this class will work with any NumberHolder regardless of type. Now about this time, I realized I accidentally stumbled upon type-erasure. We just created a class (SomeOtherClass) that lets us hide away the NumberHolderDelegate from the NumberHolder and just accept any SomeOtherClass. In fact, this is where the naming "AnySuchAndSuch" comes from. We'll convert to this convention:
 
-{% highlight Swift %}
+{% highlight swift %}
 class AnyNumberHolderDelegate<Number>: NumberHolderDelegate {
    func didPrint(number: Number) {
       //do something
