@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Type-erasure, protocols with associated types and generics from a simple example."
+date:   2016-08-29 7:54:00 -0400
+categories: swift
 ---
 
 The other day I was writing some code and went a bit too generic happy with all my classes. A simplified version started with some code like this:
