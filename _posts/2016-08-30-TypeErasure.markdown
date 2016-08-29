@@ -94,7 +94,7 @@ class NumberHolder<Number, Delegate> where Delegate: NumberHolderDelegate, Deleg
 The added clause "Delegate.Number == Number" tells the compiler that the type Delegate is (first of all a NumberHolderDelegate, but it already knew that from the first clause) declared with an associatedtype of the same type that the NumberHolder is. So upon creation of a NumberHolder:
 
 (Note: this STILL isn't correct as the second generic type isn't being declared.)
-{% highlight %}
+{% highlight swift %}
 let numberHolder = NumberHolder<Double, (Placeholder)>()
 numberHolder.number = 3.14
 {% endhighlight %}
