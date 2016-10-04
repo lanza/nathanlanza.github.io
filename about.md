@@ -1,4 +1,6 @@
 ---
+menu : main
+weight : 1
 layout: page
 title: About
 permalink: /about/
