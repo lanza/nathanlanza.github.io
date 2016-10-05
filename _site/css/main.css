@@ -95,7 +95,8 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #eef;
+  header-color: #40bfff; }
 
 code {
   padding: 1px 5px; }
@@ -107,6 +108,11 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+.portfolioGroup {
+  margin-bottom: 2cm;
+  border-style: solid;
+  border-width: 2px; }
 
 /**
  * Wrapper
@@ -149,7 +155,7 @@ pre {
  */
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
 
@@ -212,7 +218,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 2px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {

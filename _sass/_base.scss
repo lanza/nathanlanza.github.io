@@ -133,6 +133,7 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+    header-color: #40bfff;
 }
 
 code {
@@ -150,7 +151,11 @@ pre {
     }
 }
 
-
+.portfolioGroup {
+  margin-bottom:2cm;
+  border-style: solid;
+  border-width: 2px;
+}
 
 /**
  * Wrapper
