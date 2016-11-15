@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Generics?"
+title: "Quick Post About Generics"
 date:   2016-06-15 1:42:0 -0400
-categories: test 
+categories: generics 
 ---
-Just figured I'd write something simple about generics.
+Just figured I'd write something simple about generics just to get this blog going.
 
 First, I'll demonstrate the situation without generics. A Swift without generics would use structs similar to this:
 

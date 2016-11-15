@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What do people talk about on blogs?"
+title:  "Simple First Post About Protocols"
 date:   2016-06-14 01:35:00 -0400
 categories: test 
 ---
@@ -21,6 +21,7 @@ And here's how you use it.
 	struct Dog {
 		var name: String
 		var age: Int
+
       func bark() {
          print("Woof")
       }
