@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nathan Lanza</title>
-    <description>Somehwere I can write about Swift, iOS and quantum field theory...</description>
+    <description>About Swift, iOS and quantum field theory...</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Nov 2016 19:44:07 -0500</pubDate>
-    <lastBuildDate>Thu, 10 Nov 2016 19:44:07 -0500</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <pubDate>Wed, 16 Nov 2016 23:00:58 -0500</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 23:00:58 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Some iOS Table View Patterns</title>
@@ -387,8 +387,8 @@
 &lt;p&gt;This equation is from a paper I wrote on coupling Fermions to Loop Quantum Gravity (not a published paper, just to learn about a few authors work.) This is the Dirac action (the \(\psi\)s and the \(D\)s) coupled to classical gravity through the Plebanski formulation as expressed via the triads (the \(e^J\)s.)&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jun 2016 02:01:00 -0400</pubDate>
-        <link>http://localhost:4000/test/2016/06/15/post4.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2016/06/15/post4.html</guid>
+        <link>http://localhost:4000/test/2016/06/15/tex-works-too.html</link>
+        <guid isPermaLink="true">http://localhost:4000/test/2016/06/15/tex-works-too.html</guid>
         
         
         <category>test</category>
@@ -396,8 +396,8 @@
       </item>
     
       <item>
-        <title>Generics?</title>
-        <description>&lt;p&gt;Just figured I’d write something simple about generics.&lt;/p&gt;
+        <title>Quick Post About Generics</title>
+        <description>&lt;p&gt;Just figured I’d write something simple about generics just to get this blog going.&lt;/p&gt;
 
 &lt;p&gt;First, I’ll demonstrate the situation without generics. A Swift without generics would use structs similar to this:&lt;/p&gt;
 
@@ -476,16 +476,16 @@
 &lt;p&gt;This is how Arrays, Dictionaries, Sets etc are implemented in the Swift standard library. Generics allows a struct/class author to implement a type once instead of implementing it for each and every type he’d like to use it for.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Jun 2016 01:42:00 -0400</pubDate>
-        <link>http://localhost:4000/test/2016/06/15/post3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2016/06/15/post3.html</guid>
+        <link>http://localhost:4000/generics/2016/06/15/quick-post-about-generics.html</link>
+        <guid isPermaLink="true">http://localhost:4000/generics/2016/06/15/quick-post-about-generics.html</guid>
         
         
-        <category>test</category>
+        <category>generics</category>
         
       </item>
     
       <item>
-        <title>What do people talk about on blogs?</title>
+        <title>Simple First Post About Protocols</title>
         <description>&lt;p&gt;I should write a tutorial or something.&lt;/p&gt;
 
 &lt;p&gt;Here’s how you create a protocol in Swift.&lt;/p&gt;
@@ -500,6 +500,7 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;	&lt;span class=&quot;kd&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 		&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt;
 		&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;Int&lt;/span&gt;
+
       &lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bark&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
          &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Woof&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -530,26 +531,8 @@
 &lt;p&gt;That’ll do, pig.&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jun 2016 01:35:00 -0400</pubDate>
-        <link>http://localhost:4000/test/2016/06/14/some-other-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2016/06/14/some-other-post.html</guid>
-        
-        
-        <category>test</category>
-        
-      </item>
-    
-      <item>
-        <title>I have a blog?</title>
-        <description>&lt;p&gt;I’ll do something eventually.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;doThings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hi!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Fri, 20 May 2016 13:48:55 -0400</pubDate>
-        <link>http://localhost:4000/test/2016/05/20/my-first-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2016/05/20/my-first-post.html</guid>
+        <link>http://localhost:4000/test/2016/06/14/simple-first-post-about-protocols.html</link>
+        <guid isPermaLink="true">http://localhost:4000/test/2016/06/14/simple-first-post-about-protocols.html</guid>
         
         
         <category>test</category>
