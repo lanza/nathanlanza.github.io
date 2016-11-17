@@ -8,7 +8,7 @@
 # Site settings
 title: Nathan Lanza
 email: nathan@lanza.io
-description: Somehwere I can write about Swift, iOS and quantum field theory... 
+description: About Swift, iOS and quantum field theory... 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lanza.io" # the base hostname & protocol for your site
 twitter_username: nlanzaio
