@@ -109,11 +109,6 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.portfolioGroup {
-  margin-bottom: 2cm;
-  border-style: solid;
-  border-width: 2px; }
-
 /**
  * Wrapper
  */
@@ -461,3 +456,8 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.portfolioGroup {
+  margin-bottom: 2cm;
+  border-style: solid;
+  border-width: 2px; }
